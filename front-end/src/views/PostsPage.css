@@ -1,0 +1,28 @@
+.search-bar {
+  padding: 10px;
+  position: relative;
+  width: 350px;
+}
+
+.search-bar::after {
+  content: "🔍";
+  position: absolute;
+  left: 289px;
+  top: 10px;
+  border: 1px solid black;
+  padding: 2px;
+}
+
+
+.search-bar label {
+  margin-right: 5px;
+}
+
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  background-color: black;
+  gap: 20px;
+}

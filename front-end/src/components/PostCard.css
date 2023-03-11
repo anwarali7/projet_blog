@@ -1,0 +1,97 @@
+.post-card {
+  border-radius: 8px;
+  background-color: rgb(19, 17, 32);
+  border: 2px solid rgb(35, 32, 54);
+  color: white;
+  min-width: 210px;
+  min-height: 245px;
+  max-width: 210px;
+  max-height: 245px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.post-card-title {
+  width: 100%;
+  height: 50px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.post-card-date {
+  font-size: 12px;
+  color: rgb(161, 161, 161);
+  margin-bottom: 0;
+}
+
+.post-card-image {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  align-self: center;
+  margin-bottom: 8px;
+}
+
+/* 
+*********** Buttons **********
+ */
+
+.btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-content {
+  display: flex;
+  align-items: center;
+}
+
+.post-card-btn {
+  border:none;
+  padding: 5px;
+  margin: 0;
+  border-radius: 5px;
+  overflow: visible;
+  background: transparent;
+  line-height: normal;
+  width: 32px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-card-btn:hover {
+  background-color: rgb(130, 0, 170);
+}
+
+.post-card-btn:active {
+  background-color: rgb(116, 0, 151);
+}
+
+.post-card-btn svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.post-card-btn svg * {
+  fill: white;
+}
+
+.post-card-btn.active svg * {
+  fill: rgb(130, 0, 170);
+}
+
+.post-card-btn.active:hover svg * {
+  fill: white;
+}
+
+.post-card-btn svg #invisible_box * {
+  fill: none!important;
+}

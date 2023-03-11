@@ -1,0 +1,40 @@
+.App {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Rules to wrap navbar earlier instead of at 992px*/
+@media (min-width: 600px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+  }
+
+  .navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+
+  .navbar-expand-lg .navbar-toggler {
+    display: none;
+  }
+
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+  }
+
+  .mb-lg-0 {
+    margin-bottom: 0 !important;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+}
+
+.user-image {
+  margin-right: 15px;
+  height: 40px;
+  min-width: 40px;
+}

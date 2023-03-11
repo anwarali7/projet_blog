@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "6408a0474ac6cb86bce52cfe"
+  },
+  "gender": "male",
+  "firstname": "AdminFirstname",
+  "lastname": "AdminLastname",
+  "email": "admin@gmail.com",
+  "password": "$2b$10$xCpt8OxEMsCCZih9dVAQX..Z51/GC5tMgt8ZUMXgwggG/5ngIQ9lu",
+  "photo": "https://placekitten.com/100/100",
+  "category": "JS",
+  "__v": 0,
+  "isAdmin": true
+}]

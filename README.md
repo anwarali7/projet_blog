@@ -14,4 +14,11 @@ npm run dev
 
 
 There has to be at least an admin in the database.  
-Account creation is only made by a connected admin.
+
+Database name :  
+tpblog  
+
+Collections inside tpblog :
+- posts
+- users  
+(use json files in db-data to put data in db)
